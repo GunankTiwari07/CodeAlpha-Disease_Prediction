@@ -1,4 +1,5 @@
 🏥 Disease Prediction from Medical Data
+---
 A machine learning project to predict the likelihood of diseases (Heart Disease, Diabetes, Breast Cancer) using patient medical data with multiple classification algorithms.
 ---
 📌 Objective
@@ -33,6 +34,7 @@ disease-prediction/
 ```
 ---
 🗂️ Datasets
+---
 All datasets are sourced from the UCI Machine Learning Repository:
 Disease	Dataset	Samples	Features
 Heart Disease	Cleveland Heart Disease	303	13
@@ -91,27 +93,8 @@ Run the Streamlit app
 streamlit run app.py
 ```
 ---
-📊 Results
-Heart Disease Prediction
-Model	Accuracy	Precision	Recall	F1-Score	AUC-ROC
-Logistic Regression	85.2%	0.84	0.86	0.85	0.91
-SVM	86.9%	0.86	0.88	0.87	0.93
-Random Forest	88.5%	0.88	0.89	0.88	0.94
-XGBoost	90.2%	0.90	0.91	0.90	0.96
-Diabetes Prediction
-Model	Accuracy	Precision	Recall	F1-Score	AUC-ROC
-Logistic Regression	77.3%	0.75	0.78	0.76	0.84
-SVM	78.6%	0.77	0.79	0.78	0.85
-Random Forest	80.1%	0.79	0.81	0.80	0.87
-XGBoost	82.4%	0.82	0.83	0.82	0.89
-Breast Cancer Prediction
-Model	Accuracy	Precision	Recall	F1-Score	AUC-ROC
-Logistic Regression	95.6%	0.95	0.96	0.95	0.98
-SVM	97.4%	0.97	0.97	0.97	0.99
-Random Forest	96.5%	0.96	0.97	0.96	0.99
-XGBoost	98.2%	0.98	0.98	0.98	0.99
----
 🔑 Key Features Used
+---
 Heart Disease: age, sex, chest pain type, resting BP, cholesterol, fasting blood sugar, ECG results, max heart rate, exercise angina, ST depression, slope, vessels, thal
 Diabetes: pregnancies, glucose, blood pressure, skin thickness, insulin, BMI, diabetes pedigree function, age
 Breast Cancer: mean radius, texture, perimeter, area, smoothness, compactness, concavity, symmetry, fractal dimension (+ worst & SE variants)
